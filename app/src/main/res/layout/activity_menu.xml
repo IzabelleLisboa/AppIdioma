@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:backgroundTint="@color/white"
+    android:onClick="Animais"
     tools:context=".Menu">
 
     <TextView
@@ -32,6 +33,7 @@
         android:layout_marginBottom="16dp"
         android:background="@color/white"
         android:backgroundTint="@color/white"
+        android:onClick="Frutas"
         android:text="Frutas"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
@@ -51,6 +53,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="16dp"
+        android:onClick="Cores"
         android:text="Cores"
         android:textAlignment="center"
         android:textSize="16pt"
@@ -68,6 +71,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="20dp"
+        android:onClick="Animais"
         android:text="Animais"
         android:textAlignment="center"
         android:textSize="16pt"
@@ -84,6 +88,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="81dp"
         android:layout_marginBottom="32dp"
+        android:onClick="DiasSem"
         android:text="Dias da semana"
         android:textAlignment="center"
         android:textSize="10pt"
